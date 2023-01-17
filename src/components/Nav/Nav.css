@@ -1,0 +1,12 @@
+nav {
+    height: 10vh;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.Nav__links {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
