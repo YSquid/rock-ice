@@ -1,0 +1,33 @@
+.Services__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.Services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 5rem;
+}
+
+.Service__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 1rem;
+  height: 25%;
+  width: 33%;
+}
+
+.Service__card h1 {
+  margin: 1rem;
+}
